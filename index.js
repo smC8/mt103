@@ -1,7 +1,7 @@
 const Swift = require('swift-mock');
 const express = require('express');
 const bodyParser = require('body-parser');
-const swift = new Swift({ in: './in', out: './out', fieldPatterns: './metadata/patterns.json', logLevel: 2 });
+const swift = new Swift({ in: './in', out: './out', fieldPatterns: './patterns.json', logLevel: 2 });
 const { v4: uuidv4 } = require('uuid');
 
 // const fs = require('fs');
